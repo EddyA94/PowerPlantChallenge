@@ -2,13 +2,13 @@
 
 namespace PowerPlant.Domain.Models.DTO
 {
-    public class LoadRequest_Dto
+    public class LoadRequest
     {
         [JsonProperty("load")]
         public decimal Load { get; set; }
         [JsonProperty("fuels")]
-        public Fuel_Dto? Fuels { get; set; }
+        public Fuel? Fuels { get; set; }
         [JsonProperty("powerplants")]
-        public IEnumerable<PowerPlant_Dto> PowerPlants { get; set; }
+        public IEnumerable<PowerPlant> PowerPlants { get; set; }
     }
 }

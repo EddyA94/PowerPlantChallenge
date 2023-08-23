@@ -19,7 +19,7 @@ namespace PowerPlant.Api.Controllers
 
         [HttpPost]
         [Route("CalculatePower")]
-        public  IActionResult AddNewBeer([FromBody][Required] LoadRequest_Dto loadRequest_Dto)
+        public  IActionResult AddNewBeer([FromBody][Required] LoadRequest loadRequest_Dto)
         {
             if (loadRequest_Dto.Load <= 0 || loadRequest_Dto.Fuels == null || loadRequest_Dto.PowerPlants == null)
             {

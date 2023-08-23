@@ -2,7 +2,7 @@
 
 namespace PowerPlant.Domain.Models.DTO
 {
-    public class Fuel_Dto
+    public class Fuel
     {
         [JsonProperty("gas(euro/MWh)")]
         public decimal Gas { get; set; }

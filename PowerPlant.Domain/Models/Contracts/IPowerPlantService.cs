@@ -10,6 +10,6 @@ namespace PowerPlant.Domain.Models.Contracts
 {
     public interface IPowerPlantService
     {
-        IEnumerable<PowerOutput_Dto> GetProductionPlan(LoadRequest_Dto loadRequest);
+        IEnumerable<PowerOutput> GetProductionPlan(LoadRequest loadRequest);
     }
 }
