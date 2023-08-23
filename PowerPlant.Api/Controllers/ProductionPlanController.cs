@@ -7,7 +7,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PowerPlant.Api.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class ProductionPlanController : ControllerBase
     {
