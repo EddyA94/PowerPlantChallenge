@@ -26,10 +26,10 @@ namespace PowerPlant.Test
         public void GetProductionPlan_PowerPlantsNull_ThrowsCustomException()
         {
             // Arrange
-            var loadRequest = new LoadRequest_Dto
+            var loadRequest = new LoadRequest
             {
                 PowerPlants = null,
-                Fuels = new Fuel_Dto(),
+                Fuels = new Fuel(),
                 Load = 100
             };
 
@@ -43,9 +43,9 @@ namespace PowerPlant.Test
         public void GetProductionPlan_FuelsNull_ThrowsCustomException()
         {
             // Arrange
-            var loadRequest = new LoadRequest_Dto
+            var loadRequest = new LoadRequest
             {
-                PowerPlants = new List<PowerPlant_Dto>(),
+                PowerPlants = new List<Domain.Models.DTO.PowerPlant>(),
                 Fuels = null,
                 Load = 100
             };
@@ -60,10 +60,10 @@ namespace PowerPlant.Test
         public void GetProductionPlan_LoadLessOrEqual0_ThrowsCustomException()
         {
             // Arrange
-            var loadRequest = new LoadRequest_Dto
+            var loadRequest = new LoadRequest
             {
-                PowerPlants = new List<PowerPlant_Dto>(),
-                Fuels = new Fuel_Dto(),
+                PowerPlants = new List<Domain.Models.DTO.PowerPlant>(),
+                Fuels = new Fuel(),
                 Load = -1
             };
 
@@ -91,11 +91,11 @@ namespace PowerPlant.Test
             }
         }
 
-        private LoadRequest_Dto GetMockLoadRequest()
+        private LoadRequest GetMockLoadRequest()
         {
-            return new LoadRequest_Dto
+            return new LoadRequest
             {
-                PowerPlants = new List<PowerPlant_Dto>  {
+                PowerPlants = new List<Domain.Models.DTO.PowerPlant>  {
                 new ()
                 {
                     Name = "windpark1",
@@ -145,7 +145,7 @@ namespace PowerPlant.Test
                     PMax = 16,
                 },
             },
-                Fuels = new Fuel_Dto
+                Fuels = new Fuel
                 {
                     Co2 = 20,
                     Gas = 13.4M,
@@ -156,9 +156,9 @@ namespace PowerPlant.Test
             };
         }
 
-        private List<PowerOutput_Dto> GetMockOutputRequest()
+        private List<PowerOutput> GetMockOutputRequest()
         {
-            return new List<PowerOutput_Dto>
+            return new List<PowerOutput>
              {
                  new ()
                  {

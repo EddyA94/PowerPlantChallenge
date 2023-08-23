@@ -4,7 +4,7 @@ using PowerPlant.Domain.Models.Enums;
 
 namespace PowerPlant.Domain.Models.DTO
 {
-    public class PowerPlant_Dto
+    public class PowerPlant
     {
         public string Name { get; set; }
         [JsonConverter(typeof(StringEnumConverter))]

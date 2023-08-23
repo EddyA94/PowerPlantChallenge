@@ -8,7 +8,7 @@ namespace PowerPlant.Infrastructure.Services
 {
     public class PowerPlantService : IPowerPlantService
     {
-        public IEnumerable<PowerOutput_Dto> GetProductionPlan(LoadRequest_Dto loadRequest)
+        public IEnumerable<PowerOutput> GetProductionPlan(LoadRequest loadRequest)
         {
             if (loadRequest.PowerPlants == null)
             {
@@ -28,7 +28,7 @@ namespace PowerPlant.Infrastructure.Services
             return CalculatePower(loadRequest.PowerPlants, loadRequest.Fuels, loadRequest.Load);
         }
 
-        private static IEnumerable<PowerOutput_Dto> CalculatePower(IEnumerable<PowerPlant_Dto> powerPlants_Dto, Fuel_Dto fuel, decimal load)
+        private static IEnumerable<PowerOutput> CalculatePower(IEnumerable<Domain.Models.DTO.PowerPlant> powerPlants_Dto, Domain.Models.DTO.Fuel fuel, decimal load)
         {
             var CalculatedPower = new List<PowerPlants>();
             foreach (var powerPlant in powerPlants_Dto)
@@ -48,7 +48,7 @@ namespace PowerPlant.Infrastructure.Services
             return ReportPlanLoad(OrderPowerPlants(CalculatedPower), load);
         }
 
-        private static decimal GetFuelCost(PowerPlant_Dto powerPlant, Fuel_Dto fuel)
+        private static decimal GetFuelCost(Domain.Models.DTO.PowerPlant powerPlant, Domain.Models.DTO.Fuel fuel)
         {
             switch (powerPlant.Type)
             {
@@ -63,7 +63,7 @@ namespace PowerPlant.Infrastructure.Services
             }
         }
 
-        private static decimal GetActualPMax(PowerPlant_Dto powerPlant, Fuel_Dto fuel)
+        private static decimal GetActualPMax(Domain.Models.DTO.PowerPlant powerPlant, Domain.Models.DTO.Fuel fuel)
         {
             switch (powerPlant.Type)
             {
@@ -81,16 +81,16 @@ namespace PowerPlant.Infrastructure.Services
                 .ThenByDescending(i => i.ActualPMax);
         }
 
-        private static IEnumerable<PowerOutput_Dto> ReportPlanLoad(IEnumerable<PowerPlants> powerPlants, decimal planLoad)
+        private static IEnumerable<PowerOutput> ReportPlanLoad(IEnumerable<PowerPlants> powerPlants, decimal planLoad)
         {
-            var ret = new List<PowerOutput_Dto>();
+            var ret = new List<PowerOutput>();
             var load = planLoad;
             powerPlants
                .ToList()
                .ForEach(p => {
                    if (p.ActualPMax == 0 || p.PMin > load)
                    {
-                       ret.Add(new PowerOutput_Dto()
+                       ret.Add(new PowerOutput()
                        {
                            Name = p.Name,
                            p = 0,
@@ -99,7 +99,7 @@ namespace PowerPlant.Infrastructure.Services
                    }
                    if (load <= p.ActualPMax && load >= p.PMin)
                    {
-                       ret.Add(new PowerOutput_Dto()
+                       ret.Add(new PowerOutput()
                        {
                            Name = p.Name,
                            p = Math.Round(load,2),
@@ -107,7 +107,7 @@ namespace PowerPlant.Infrastructure.Services
                        load = 0;
                        return;
                    }
-                   ret.Add(new PowerOutput_Dto()
+                   ret.Add(new PowerOutput()
                    {
                        Name = p.Name,
                        p = Math.Round(p.ActualPMax,2),
