@@ -352,3 +352,24 @@ azurekeyvault.json
 #Config File
 nuget.config
 /.vs/PowerPlantChallenge/v17/.suo
+/PowerPlant.Api/obj/Debug/net7.0/PowerPlant.Api.csproj.AssemblyReference.cache
+/PowerPlant.Api/obj/Container/VsDbgScript.cache
+/PowerPlant.Api/obj/Container/VolumeMappings.cache
+/PowerPlant.Api/obj/Container/TargetFramework.cache
+/PowerPlant.Api/obj/Container/OperatingSystemName.cache
+/PowerPlant.Api/obj/Container/ImageId.cache
+/PowerPlant.Api/obj/Container/ImageBuildContext.cache
+/PowerPlant.Api/obj/Container/FastModeProjectMountDirectory.cache
+/PowerPlant.Api/obj/Container/DebuggeeWorkingDirectory.cache
+/PowerPlant.Api/obj/Container/DebuggeeProgram.cache
+/PowerPlant.Api/obj/Container/DebuggeeKillProcessCommand.cache
+/PowerPlant.Api/obj/Container/DebuggeeArguments.cache
+/PowerPlant.Api/obj/Container/ContainerRunContext.cache
+/PowerPlant.Api/obj/Container/ContainerOperatingSystemFlavor.cache
+/PowerPlant.Api/obj/Container/ContainerName.cache
+/PowerPlant.Api/obj/Container/ContainerId.cache
+/PowerPlant.Api/obj/Container/ContainerDevelopmentMode.cache
+/PowerPlant.Api/obj/Container/AdditionalProbingPaths.cache
+/PowerPlant.Api/obj/Container/AbsoluteOutputAssemblyPath.cache
+/PowerPlant.Domain/obj/Debug/net7.0/PowerPlant.Domain.csproj.AssemblyReference.cache
+/PowerPlant.Infrastructure/obj/Debug/net7.0/PowerPlant.Infrastructure.csproj.AssemblyReference.cache
