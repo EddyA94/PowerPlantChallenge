@@ -1,0 +1,79 @@
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\appsettings.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.exe
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.deps.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.runtimeconfig.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.pdb
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Domain.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Infrastructure.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Domain.pdb
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Infrastructure.pdb
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.csproj.AssemblyReference.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.AssemblyInfoInputs.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.AssemblyInfo.cs
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.csproj.CoreCompileInputs.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.PowerPlant.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.PowerPlant.Api.props
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PowerPlant.Api.props
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PowerPlant.Api.props
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\scopedcss\bundle\PowerPlant.Api.styles.css
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.csproj.CopyComplete
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\refint\PowerPlant.Api.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.pdb
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.genruntimeconfig.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\ref\PowerPlant.Api.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\appsettings.Development.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\appsettings.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.exe
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.deps.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.runtimeconfig.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Api.pdb
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Domain.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Infrastructure.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Domain.pdb
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\PowerPlant.Infrastructure.pdb
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.csproj.AssemblyReference.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.AssemblyInfoInputs.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.AssemblyInfo.cs
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.csproj.CoreCompileInputs.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.PowerPlant.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.PowerPlant.Api.props
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.PowerPlant.Api.props
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.PowerPlant.Api.props
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\scopedcss\bundle\PowerPlant.Api.styles.css
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.csproj.CopyComplete
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\refint\PowerPlant.Api.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.pdb
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\PowerPlant.Api.genruntimeconfig.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\obj\Debug\net7.0\ref\PowerPlant.Api.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Api\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

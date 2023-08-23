@@ -1,0 +1,24 @@
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.deps.json
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.pdb
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.csproj.AssemblyReference.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.AssemblyInfoInputs.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.AssemblyInfo.cs
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\refint\PowerPlant.Domain.dll
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.pdb
+C:\Users\Joey Mosleh\Desktop\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\ref\PowerPlant.Domain.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.deps.json
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.pdb
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.csproj.AssemblyReference.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.AssemblyInfoInputs.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.AssemblyInfo.cs
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.csproj.CoreCompileInputs.cache
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\refint\PowerPlant.Domain.dll
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.pdb
+C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\ref\PowerPlant.Domain.dll

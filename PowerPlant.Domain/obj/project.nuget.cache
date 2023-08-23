@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZUANzf3gQhO/49CjVHIMae7OcGJoKSP9uAAGG8lEmNiyRYPld9FRZeoYWNk0SH6J3JjDO0/F+OHvJG+hD2qn+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eddy Al Asmar\\source\\repos\\PowerPlantChallenge\\PowerPlant.Domain\\PowerPlant.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eddy Al Asmar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
