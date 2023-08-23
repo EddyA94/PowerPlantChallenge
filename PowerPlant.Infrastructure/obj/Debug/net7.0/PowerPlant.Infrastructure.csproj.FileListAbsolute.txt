@@ -28,3 +28,18 @@ C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\
 C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\refint\PowerPlant.Infrastructure.dll
 C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.pdb
 C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\ref\PowerPlant.Infrastructure.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\bin\Debug\net7.0\PowerPlant.Infrastructure.deps.json
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\bin\Debug\net7.0\PowerPlant.Infrastructure.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\bin\Debug\net7.0\PowerPlant.Infrastructure.pdb
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\bin\Debug\net7.0\PowerPlant.Domain.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\bin\Debug\net7.0\PowerPlant.Domain.pdb
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.AssemblyInfo.cs
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.csproj.CopyComplete
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\refint\PowerPlant.Infrastructure.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\PowerPlant.Infrastructure.pdb
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Infrastructure\obj\Debug\net7.0\ref\PowerPlant.Infrastructure.dll

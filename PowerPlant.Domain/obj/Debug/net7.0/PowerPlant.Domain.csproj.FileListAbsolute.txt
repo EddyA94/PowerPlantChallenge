@@ -22,3 +22,15 @@ C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\P
 C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\refint\PowerPlant.Domain.dll
 C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.pdb
 C:\eddy\engie Challenge\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\ref\PowerPlant.Domain.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.deps.json
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\bin\Debug\net7.0\PowerPlant.Domain.pdb
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.csproj.AssemblyReference.cache
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.AssemblyInfoInputs.cache
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.AssemblyInfo.cs
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\refint\PowerPlant.Domain.dll
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\PowerPlant.Domain.pdb
+C:\Users\Eddy Al Asmar\source\repos\PowerPlantChallenge\PowerPlant.Domain\obj\Debug\net7.0\ref\PowerPlant.Domain.dll
