@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PowerPlant.Domain.Models.Contracts;
 using PowerPlant.Domain.Models.DTO;
 using PowerPlant.Infrastructure.Exceptions;
@@ -19,7 +18,7 @@ namespace PowerPlant.Api.Controllers
 
         [HttpPost]
         [Route("CalculatePower")]
-        public  IActionResult AddNewBeer([FromBody][Required] LoadRequest loadRequest_Dto)
+        public  IActionResult CalculatePower([FromBody][Required] LoadRequest loadRequest_Dto)
         {
             if (loadRequest_Dto.Load <= 0 || loadRequest_Dto.Fuels == null || loadRequest_Dto.PowerPlants == null)
             {
