@@ -18,26 +18,10 @@ namespace PowerPlant.Api.Controllers
 
         [HttpPost]
         [Route("CalculatePower")]
-        public  IActionResult CalculatePower([FromBody][Required] LoadRequest loadRequest_Dto)
+        public IActionResult CalculatePower([FromBody][Required] LoadRequest loadRequestDto)
         {
-            if (loadRequest_Dto.Load <= 0 || loadRequest_Dto.Fuels == null || loadRequest_Dto.PowerPlants == null)
-            {
-                return StatusCode(StatusCodes.Status400BadRequest, "Missing Fields required (Load or Fuels or PowerPlants)");
-            }
-
-            try
-            {
-                var res=  _powerPlantService.GetProductionPlan(loadRequest_Dto);
-                return Ok(res);
-            }
-            catch (CustomExceptions ex)
-            {
-                return StatusCode(ex.StatusCode, ex.Message);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-            }
+            var res = _powerPlantService.GetProductionPlan(loadRequestDto);
+            return Ok(res);
         }
     }
 }

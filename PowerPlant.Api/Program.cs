@@ -12,9 +12,9 @@ builder.Services.AddControllers();
 
 builder.Services.AddControllers().AddNewtonsoftJson();
 
-builder.Services.AddTransient<IPowerPlantService, PowerPlantService>();
+builder.Services.AddScoped<IPowerPlantService, PowerPlantService>();
 
-builder.Services.AddTransient<ExceptionHandler>();
+builder.Services.AddScoped<ExceptionHandler>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
