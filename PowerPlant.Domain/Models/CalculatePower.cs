@@ -4,7 +4,7 @@ using PowerPlant.Domain.Models.Enums;
 
 namespace PowerPlant.Domain.Models
 {
-    public class CalculatePower
+    public static class CalculatePower
     {
         public static IEnumerable<PowerOutput> CalculateGeneratedPower(IEnumerable<Domain.Models.DTO.PowerPlant> powerPlants_Dto, Domain.Models.DTO.Fuel fuel, decimal load)
         {
