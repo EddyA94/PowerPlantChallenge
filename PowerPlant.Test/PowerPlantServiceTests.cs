@@ -1,4 +1,5 @@
-using PowerPlant.Domain.Models.Contracts;
+using Newtonsoft.Json;
+using PowerPlant.Domain.Models;
 using PowerPlant.Domain.Models.DTO;
 using PowerPlant.Domain.Models.Enums;
 using PowerPlant.Infrastructure.Exceptions;
@@ -16,79 +17,49 @@ namespace PowerPlant.Test
             _powerPlantService = new PowerPlantService();
         }
 
-
-        [SetUp]
-        public void Setup()
+        public static IEnumerable<object[]> TestData()
         {
+            yield return new object[] { null,new Fuel(), 100 };
+            yield return new object[] { new List<Domain.Models.DTO.PowerPlant>(), null, 100 };
+            yield return new object[] { new List<Domain.Models.DTO.PowerPlant>(), new Fuel(), -1 };
         }
 
-        [Test]
-        public void GetProductionPlan_PowerPlantsNull_ThrowsCustomException()
+        [Theory]
+        [MemberData(nameof(TestData))]
+        public void GetProductionPlan_Null_ThrowsCustomException(IEnumerable<Domain.Models.DTO.PowerPlant> PowerPlants, Fuel Fuel, int Load)
         {
             // Arrange
             var loadRequest = new LoadRequest
             {
                 PowerPlants = null,
-                Fuels = new Fuel(),
+                Fuels = Fuel,
                 Load = 100
             };
 
             // Act & Assert
             var exception = Assert.Throws<CustomExceptions>(() => _powerPlantService.GetProductionPlan(loadRequest));
-            Assert.AreEqual((int)HttpStatusCode.BadRequest, exception.StatusCode);
-            Assert.AreEqual("PowerPlants Cannot Be null", exception.Message);
+            Assert.True((int)HttpStatusCode.BadRequest== exception.StatusCode);
+            Assert.True("PowerPlants Cannot Be null"== exception.Message);
         }
 
-        [Test]
-        public void GetProductionPlan_FuelsNull_ThrowsCustomException()
+        [Theory]
+        [InlineData("payload/payload1.json")]
+        [InlineData("payload/payload2.json")]
+        [InlineData("payload/payload3.json")]
+        void TestCalculator(string payloadFile)
         {
-            // Arrange
-            var loadRequest = new LoadRequest
+            // Setup
+            var payload = JsonConvert.DeserializeObject<LoadRequest>(File.ReadAllText(payloadFile));
+            var Ppayload = _powerPlantService.GetProductionPlan(payload);
+            decimal required = payload.Load;
+            var calculated = CalculatePower.CalculateGeneratedPower(payload.PowerPlants, payload.Fuels, required);
+            Assert.Equal(payload.Load, calculated.Sum(x => x.p));
+            calculated.Where(W => W.p > 0).ToList().ForEach(x =>
             {
-                PowerPlants = new List<Domain.Models.DTO.PowerPlant>(),
-                Fuels = null,
-                Load = 100
-            };
-
-            // Act & Assert
-            var exception = Assert.Throws<CustomExceptions>(() => _powerPlantService.GetProductionPlan(loadRequest));
-            Assert.AreEqual((int)HttpStatusCode.BadRequest, exception.StatusCode);
-            Assert.AreEqual("Fuel Cannot Be null", exception.Message);
-        }
-
-        [Test]
-        public void GetProductionPlan_LoadLessOrEqual0_ThrowsCustomException()
-        {
-            // Arrange
-            var loadRequest = new LoadRequest
-            {
-                PowerPlants = new List<Domain.Models.DTO.PowerPlant>(),
-                Fuels = new Fuel(),
-                Load = -1
-            };
-
-            // Act & Assert
-            var exception = Assert.Throws<CustomExceptions>(() => _powerPlantService.GetProductionPlan(loadRequest));
-            Assert.AreEqual((int)HttpStatusCode.BadRequest, exception.StatusCode);
-            Assert.AreEqual("Load Cannot Be less or equale to 0", exception.Message);
-        }
-
-        [Test]
-        public void GetProductionPlan_ThrowsCustomException()
-        {
-            // Arrange
-            var LoadtMock = GetMockLoadRequest();
-            var OutputMock = GetMockOutputRequest();
-
-            //Act
-            var result = _powerPlantService.GetProductionPlan(LoadtMock);
-
-            //Assert
-            for (int i = 0; i < result.ToList().Count; i++)
-            {
-                Assert.AreEqual(result.ToList()[i].Name, OutputMock[i].Name);
-                Assert.AreEqual(result.ToList()[i].p, OutputMock[i].p);
-            }
+                // Using xUnit's Assert to check the ranges
+                Assert.True(x.p <= payload.PowerPlants.Where(S => S.Name == x.Name).FirstOrDefault().PMax, x.Name + " Value of p should be less than or equal to PMax");
+                Assert.True(x.p >= payload.PowerPlants.Where(S => S.Name == x.Name).FirstOrDefault().PMin, x.Name + " Value of p should be greater than or equal to PMin");
+            });
         }
 
         private LoadRequest GetMockLoadRequest()
@@ -175,6 +146,11 @@ namespace PowerPlant.Test
                      Name="gasfiredbig1",
                      p=368.40M
                  },
+                new ()
+                 {
+                     Name="tj1",
+                     p=0
+                 },
                  new ()
                  {
                      Name="gasfiredbig2",
@@ -185,11 +161,7 @@ namespace PowerPlant.Test
                      Name="gasfiredsomewhatsmaller",
                      p=0
                  },
-                 new ()
-                 {
-                     Name="tj1",
-                     p=0
-                 },
+                
              };
         }
 
